@@ -11,9 +11,9 @@ git clone https://github.com/FantoX001/Miku-MD
 npm install --global yarn
 yarn add sharp
 sudo apt install curl
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+wget -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
-yarn add sharp
 cd Miku-MD
 npm i
+npm i sharp
 npm start
